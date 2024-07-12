@@ -1,0 +1,35 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    background-color: #26b394; /* Change this color as needed */
+    padding: 35px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin: 0;
+  }
+  
+  .navList {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .navItem a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .navItem a:hover {
+    color: #1fc21c;
+    transform: scale(1.1);
+  }
+  

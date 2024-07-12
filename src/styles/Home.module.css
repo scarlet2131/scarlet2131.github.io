@@ -1,0 +1,641 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #71CDB9;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.main {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 100px; /* Adjusted for fixed navbar */
+  padding: 0 20px;
+  flex: 1
+}
+
+.homeSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+  border-bottom: 1px solid #71CDB9;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+}
+
+.sectionContent {
+  margin-bottom: 40px;
+}
+.intro {
+  max-width: 600px;
+  text-align: left;
+  margin-left: 100px; /* Increased margin for better spacing */
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #ddd;
+}
+
+.button {
+  padding: 1rem 2rem;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #3dd329;
+  transform: scale(1.05);
+}
+
+.imageContainer {
+  max-width: 400px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  height: auto;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.button, .resumeButton {
+  padding: 1rem 1rem;
+  background-color: #124603;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  text-align: center;
+  margin-left: 25vh;
+  text-decoration: none; /* Added to ensure the link looks like a button */
+  display: inline-block;
+}
+
+.button:hover, .resumeButton:hover {
+  background-color: #17520f;
+  transform: scale(1.05);
+}
+
+.contactInfo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contactInfo p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #71CDB9;
+}
+
+.contactInfo a {
+  text-decoration: none;
+  color: #71CDB9;
+}
+
+.contactInfo i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+/* --------------------------------------- Skills Section ---------------------------------------*/
+.skillsSection {
+  padding: 60px 20px;
+  border-radius: 1px;
+  margin: 20px 0;
+  border-bottom: 1px solid #71CDB9;
+}
+
+.skillsTitle {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.skillsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+.skillCard:hover {
+  transform: scale(1.05);
+}
+
+.skillCard img {
+  width: 80px;  /* Set your desired width */
+  height: 80px; /* Set your desired height */
+  object-fit: contain; /* Ensures the image scales without cropping */
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.skillCard h3 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0;
+}
+
+
+/* ------------------------ Coding Profiles Section ------------------------- */
+.codingGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.codingProfileCard {
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s;
+}
+
+.codingProfileCard:hover {
+  transform: scale(1.05);
+}
+
+.codingProfileImage {
+  width: 100px; /* Fixed size for consistency */
+  height: 100px; /* Fixed size for consistency */
+  object-fit: contain; /* Ensures the image scales without cropping */
+  margin-bottom: 10px;
+  border-radius: 30%;
+}
+
+.codingProfileCard p {
+  color: #fff;
+  margin: 5px 0;
+}
+
+.codingProfileCard a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* -------------------------- Education Section ----------------------------*/
+.educationSection {
+  padding: 40px 20px;
+  border-bottom: 1px solid #71CDB9;
+}
+
+.educationGrid {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.educationCard {
+  flex: 1 1 40%; /* Adjusts the width of each card */
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Center items vertically */
+}
+
+.educationInfo h5{
+  color: #71CDB9;
+}
+
+.educationIcon {
+  width: 40px; /* Fixed size for consistency */
+  height: 40px; /* Fixed size for consistency */
+  object-fit: contain; /* Ensures the image scales without cropping */
+  margin-right: 15px; /* Space between icon and text */
+  border-radius: 30px;
+}
+
+.educationInfo {
+  flex: 1; /* Allow text to take up remaining space */
+}
+
+.educationCard:hover {
+  transform: scale(1.05);
+}
+
+/* ------------------------------ Experience Section --------------------------------- */
+.experienceSection {
+  padding: 60px 20px;
+  border-bottom: 1px solid #71CDB9;
+}
+
+.timeline {
+  position: relative;
+  margin: 50px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #71CDB9;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timelineItem {
+  margin: 20px 0;
+  position: relative;
+}
+
+.timelineItem:before,
+.timelineItem:after {
+  content: " ";
+  display: table;
+}
+
+.timelineItem:after {
+  clear: both;
+}
+
+.timelineItem:before,
+.timelineItem:after {
+  content: " ";
+  display: table;
+}
+
+.timelineItem:after {
+  clear: both;
+}
+
+.timelineItem:nth-child(odd) .timelineContent {
+  right: 0%;
+}
+
+.timelineItem:nth-child(even) .timelineContent {
+  left: 52%;
+}
+
+.timelineItem .timelineContent {
+  position: relative;
+  width: 45%;
+  padding: 20px;
+  background: #5a5858;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.timelineItem h3 {
+  margin-top: 0;
+  color: #71CDB9;
+}
+
+.timelineItem h4 {
+  margin: 5px 0 15px;
+  color: #71CDB9;
+}
+
+.timelineItem p {
+  margin: 0 0 10px;
+}
+
+.timelineItem ul {
+  padding: 0;
+  list-style: none;
+}
+
+.timelineItem ul li {
+  margin-bottom: 10px;
+}
+
+.timelineItem:nth-child(odd) .timelineContent:before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -15px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent transparent #333;
+}
+
+.timelineItem:nth-child(even) .timelineContent:before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: -15px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent #333 transparent transparent;
+}
+
+
+/* --------------------------------- Project section -----------------------------------*/
+
+
+.projectsSection {
+  padding: 60px 20px;
+  border-radius: 1px;
+  margin: 20px 0;
+  border-bottom: 1px solid #71CDB9;
+
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.projectsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.projectCard {
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%; /* Adjust the width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projectCard h3 {
+  font-size: 1.5rem;
+  color: #71CDB9;
+  margin-bottom: 10px;
+}
+
+.projectCard p {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.projectCard ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.projectCard li {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 5px;
+}
+
+/* -------------------------------- Achievements Section ----------------------------------------- */
+
+/* Achievements Section */
+.achievementsSection {
+  padding: 60px 20px;
+  border-bottom: 1px solid #71CDB9;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.timeline {
+  position: relative;
+  margin: 50px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #71CDB9;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timelineItem {
+  margin: 20px 0;
+  position: relative;
+}
+
+.timelineItem:nth-child(odd) .timelineContent {
+  right: 0;
+}
+
+.timelineItem:nth-child(even) .timelineContent {
+  left: 52%;
+}
+
+.timelineItem .timelineContent {
+  position: relative;
+  width: 45%;
+  padding: 20px;
+  background: #5a5858;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.timelineItem h3 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.timelineItem p {
+  margin: 0 0 10px;
+}
+
+.timelineItem:nth-child(odd) .timelineContent:before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -15px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent transparent #5a5858;
+}
+
+.timelineItem:nth-child(even) .timelineContent:before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: -15px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent #5a5858 transparent transparent;
+}
+
+
+/* ------------------------------- contact me ---------------------------------- */
+
+.contactSection {
+  padding: 60px 20px;
+  background-color: #000000;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.contactSection h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contactFormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactForm {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #3dd329;
+  transform: scale(1.05);
+}
+
+
+/*------------------------------------- Footer section ---------------------------------------------*/
+
+.footer {
+  /*  */
+  background-color: #71CDB9;
+  color: #000;
+  text-align: center;
+  padding: 20px 0;
+  width: 100vw;
+  position: absolute;
+  left:0%
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer div {
+  margin-top: 10px;
+}
+
+.footer div a {
+  margin: 0 20px;
+}
+
+.footer div a i {
+  width: 40px; /* Increased icon size */
+  height: 40px; /* Increased icon size */
+}
+
+.socialLinks {
+  margin-top: 10px;
+  width: 50px;
+}
+
+.socialLinks a {
+  color: #fff;
+  margin: 30 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.socialLinks a:hover {
+  color: #0070f3;
+}
+
