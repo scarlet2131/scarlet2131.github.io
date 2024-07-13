@@ -36,10 +36,9 @@ const Home = () => {
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.14.0/devicon.min.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
       </Head>
-
       <NavBar />
+
 
       <main className={styles.main}>
       <section id="home" className={styles.homeSection}>
