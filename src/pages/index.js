@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Monisha Ranjan's Portfolio</title>
+        <title>Monisha Ranjan&apos;s Portfolio</title>
         <meta name="description" content="Welcome to my portfolio" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -54,8 +54,8 @@ const Home = () => {
               </div>
             </div>
             <div className={styles.intro}>
-              <h1 className={styles.title}>I'm Monisha Ranjan</h1>
-              <p className={styles.description}>
+            <h1 className={styles.title}>I&apos;m Monisha Ranjan</h1>
+            <p className={styles.description}>
                 Software Engineer specializing in full-stack development and scalable digital solutions. With a strong foundation in backend technologies such as Spring Boot, FastAPI, and MongoDB, combined with front-end expertise in React and Bootstrap, I create impactful and user-centric applications. Passionate about creating efficient and scalable websites, focusing on leveraging modern web technologies to enhance performance and user experience.
               </p>
               <a href="https://drive.google.com/file/d/1H5Cue3FkD0P0su9xKhucd5z6auYedR7E/view?usp=sharing" target="_blank" className={styles.resumeButton}>Resume</a>
