@@ -29,12 +29,18 @@ jobs:
       - name: Build the project
         run: npm run build
 
-      # Export the project
-      - name: Export the project
-        run: npm run export
+      # # Export the project
+      # - name: Export the project
+      #   run: npm run export
 
-      # Deploy to GitHub Pages
+      # # Deploy to GitHub Pages
+      # - name: Deploy to GitHub Pages
+      #   run: npm run deploy
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
       - name: Deploy to GitHub Pages
-        run: npm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
