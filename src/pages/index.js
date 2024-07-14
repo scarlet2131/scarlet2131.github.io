@@ -44,7 +44,7 @@ const Home = () => {
       <section id="home" className={styles.homeSection}>
           <div className={styles.profileContainer}>
             <div className={styles.imageContainer}>
-              <img src="/images/profile.png" alt="Monisha Ranjan" className={styles.image} />
+              <img src="/${basePath}/images/profile.png" alt="Monisha Ranjan" className={styles.image} />
               <div className={styles.contactInfo}>
                 {/* <p>Phone: +123-456-7890</p> */}
                 <p>Email: <a href="mailto:ranjan.monisha233@gmail.com">ranjan.monisha233@gmail.com</a></p>
@@ -67,7 +67,7 @@ const Home = () => {
           <h2 className={styles.sectionTitle}>Education</h2>
           <div className={styles.educationGrid}>
             <div className={styles.educationCard}>
-              <img src="/images/iiitg.jpg" alt="IIIT Guwahati" className={styles.educationIcon} />
+              <img src="/${basePath}/images/iiitg.jpg" alt="IIIT Guwahati" className={styles.educationIcon} />
               <div className={styles.educationInfo}>
                 <h3>Indian Institute Of Information Technology, Guwahati, India</h3>
                 <h5>B.Tech in Computer Science - 7.75 CGPA</h5>
@@ -75,7 +75,7 @@ const Home = () => {
               </div>
             </div>
             <div className={styles.educationCard}>
-              <img src="/images/lambton_college.jpg" alt="Lambton College" className={styles.educationIcon} />
+              <img src="/${basePath}/images/lambton_college.jpg" alt="Lambton College" className={styles.educationIcon} />
               <div className={styles.educationInfo}>
                 <h3>Lambton College, Toronto, Canada</h3>
                 <h5>Post Grad. Certificate in Full Stack Software Development - 3.608 GPA</h5>
@@ -152,35 +152,35 @@ const Home = () => {
           <div className={styles.codingGrid}>
             <div className={styles.codingProfileCard}>
               <a href="https://leetcode.com/mr_233/" target="_blank" rel="noopener noreferrer">
-                <img src="/images/leetcode.jpg" alt="LeetCode" className={styles.codingProfileImage} />
+                <img src="/${basePath}/images/leetcode.jpg" alt="LeetCode" className={styles.codingProfileImage} />
                 <p>LeetCode</p>
               </a>
               <p>Max. Rating: 1609</p>
             </div>
             <div className={styles.codingProfileCard}>
               <a href="https://www.codechef.com/users/mr_2131" target="_blank" rel="noopener noreferrer">
-                <img src="/images/codechef.jpg" alt="CodeChef" className={styles.codingProfileImage} />
+                <img src="/${basePath}/images/codechef.jpg" alt="CodeChef" className={styles.codingProfileImage} />
                 <p>CodeChef</p>
               </a>
               <p>Max. Rating: 1833</p>
             </div>
             <div className={styles.codingProfileCard}>
               <a href="https://codeforces.com/profile/mr_2131" target="_blank" rel="noopener noreferrer">
-                <img src="/images/codeforces.jpg" alt="CodeForces" className={styles.codingProfileImage} />
+                <img src="/${basePath}/images/codeforces.jpg" alt="CodeForces" className={styles.codingProfileImage} />
                 <p>CodeForces</p>
               </a>
               <p>Max. Rating: 1495</p>
             </div>
             <div className={styles.codingProfileCard}>
               <a href="https://www.hackerearth.com/@monisha161" target="_blank" rel="noopener noreferrer">
-                <img src="/images/hackerearth.jpg" alt="HackerEarth" className={styles.codingProfileImage} />
+                <img src="/${basePath}/images/hackerearth.jpg" alt="HackerEarth" className={styles.codingProfileImage} />
                 <p>HackerEarth</p>
               </a>
               <p>Max. Rating: 1514</p>
             </div>
             <div className={styles.codingProfileCard}>
               <a href="https://www.hackerrank.com/ranjan_monisha21" target="_blank" rel="noopener noreferrer">
-                <img src="/images/hackerrank.jpg" alt="HackerRank" className={styles.codingProfileImage} />
+                <img src="/${basePath}/images/hackerrank.jpg" alt="HackerRank" className={styles.codingProfileImage} />
                 <p>HackerRank</p>
               </a>
               <p>Max. Rating: 1729</p>
@@ -266,89 +266,89 @@ const Home = () => {
           <div className={styles.skillsGrid}>
             {/* <!-- Programming Languages --> */}
             <div className={styles.skillCard}>
-              <img src="images/java.png" alt="Java" className={styles.skillIcon} />
+              <img src="${basePath}/images/java.png" alt="Java" className={styles.skillIcon} />
               <h3>Java</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/cplus.jpg" alt="C++" className={styles.skillIcon} />
+              <img src="${basePath}/images/cplus.jpg" alt="C++" className={styles.skillIcon} />
               <h3>C++</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/python.jpg" alt="Python" className={styles.skillIcon} />
+              <img src="${basePath}/images/python.jpg" alt="Python" className={styles.skillIcon} />
               <h3>Python</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/js.jpg" alt="JavaScript" className={styles.skillIcon} />
+              <img src="${basePath}/images/js.jpg" alt="JavaScript" className={styles.skillIcon} />
               <h3>JavaScript</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/matlab.jpg" alt="Matlab" className={styles.skillIcon} />
+              <img src="${basePath}/images/matlab.jpg" alt="Matlab" className={styles.skillIcon} />
               <h3>Matlab</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/php.jpg" alt="PHP" className={styles.skillIcon} />
+              <img src="${basePath}/images/php.jpg" alt="PHP" className={styles.skillIcon} />
               <h3>PHP</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/net.jpg" alt=".NET" className={styles.skillIcon} />
+              <img src="${basePath}/images/net.jpg" alt=".NET" className={styles.skillIcon} />
               <h3>.NET</h3>
             </div>
 
             {/* <!-- Back-end Development --> */}
             <div className={styles.skillCard}>
-              <img src="images/django.jpg" alt="Django" className={styles.skillIcon} />
+              <img src="${basePath}/images/django.jpg" alt="Django" className={styles.skillIcon} />
               <h3>Django</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/laravel.jpg" alt="Laravel" className={styles.skillIcon} />
+              <img src="${basePath}/images/laravel.jpg" alt="Laravel" className={styles.skillIcon} />
               <h3>Laravel</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/mysql.jpg" alt="MySQL" className={styles.skillIcon} />
+              <img src="${basePath}/images/mysql.jpg" alt="MySQL" className={styles.skillIcon} />
               <h3>MySQL</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/mongo.jpg" alt="MongoDB" className={styles.skillIcon} />
+              <img src="${basePath}/images/mongo.jpg" alt="MongoDB" className={styles.skillIcon} />
               <h3>MongoDB</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/elastic.jpg" alt="ElasticSearch" className={styles.skillIcon} />
+              <img src="${basePath}/images/elastic.jpg" alt="ElasticSearch" className={styles.skillIcon} />
               <h3>ElasticSearch</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/spring.jpg" alt="Spring Boot" className={styles.skillIcon} />
+              <img src="${basePath}/images/spring.jpg" alt="Spring Boot" className={styles.skillIcon} />
               <h3>Spring Boot</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/fastapi.jpg" alt="FastAPI" className={styles.skillIcon} />
+              <img src="${basePath}/images/fastapi.jpg" alt="FastAPI" className={styles.skillIcon} />
               <h3>FastAPI</h3>
             </div>
 
             {/* <!-- Front-end Development --> */}
             <div className={styles.skillCard}>
-              <img src="images/html.jpg" alt="HTML/CSS" className={styles.skillIcon} />
+              <img src="${basePath}/images/html.jpg" alt="HTML/CSS" className={styles.skillIcon} />
               <h3>HTML/CSS</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/boot.jpg" alt="Bootstrap" className={styles.skillIcon} />
+              <img src="${basePath}/images/boot.jpg" alt="Bootstrap" className={styles.skillIcon} />
               <h3>Bootstrap</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/react.jpg" alt="React" className={styles.skillIcon} />
+              <img src="${basePath}/images/react.jpg" alt="React" className={styles.skillIcon} />
               <h3>React</h3>
             </div>
 
             {/* <!-- Tools & Frameworks --> */}
             <div className={styles.skillCard}>
-              <img src="images/google.jpg" alt="Google APIs" className={styles.skillIcon} />
+              <img src="${basePath}/images/google.jpg" alt="Google APIs" className={styles.skillIcon} />
               <h3>Google APIs</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/android.jpg" alt="Android" className={styles.skillIcon} />
+              <img src="${basePath}/images/android.jpg" alt="Android" className={styles.skillIcon} />
               <h3>Android</h3>
             </div>
             <div className={styles.skillCard}>
-              <img src="images/git.jpg" alt="Git" className={styles.skillIcon} />
+              <img src="${basePath}/images/git.jpg" alt="Git" className={styles.skillIcon} />
               <h3>Git</h3>
             </div>
           </div>
