@@ -4,8 +4,7 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: '/Internship_Portfolio',
-    assetPrefix: '/Internship_Portfolio',
-
+    basePath: '/scarlet2131.github.io',
+    assetPrefix: '/scarlet2131.github.io',
 };
 export default nextConfig;
