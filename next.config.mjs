@@ -4,7 +4,7 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: '/scarlet2131.github.io',
-    assetPrefix: '/scarlet2131.github.io',
+    // basePath: '/scarlet2131.github.io',
+    // assetPrefix: '/scarlet2131.github.io',
 };
 export default nextConfig;

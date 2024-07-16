@@ -67,14 +67,14 @@ const Home = () => {
           <h2 className={styles.sectionTitle}>Education</h2>
           <div className={styles.educationGrid}>
             <div className={styles.educationCard}>
-              <img src="/scarlet2131.github.io/images/iiitg.jpg" alt="IIIT Guwahati" className={styles.educationIcon} />
+              <img src="/images/iiitg.jpg" alt="IIIT Guwahati" className={styles.educationIcon} />
               <div className={styles.educationInfo}>
                 <h3>Indian Institute Of Information Technology, Guwahati, India</h3>
                 <h5>B.Tech in Computer Science - 7.75 CGPA</h5>
                 <p>Jul. 2017 - May 2021</p>
               </div>
             </div>
-            
+
             <div className={styles.educationCard}>
               <img src="/scarlet2131.github.io/images/lambton_college.jpg" alt="Lambton College" className={styles.educationIcon} />
               <div className={styles.educationInfo}>
