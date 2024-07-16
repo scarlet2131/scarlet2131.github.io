@@ -74,6 +74,7 @@ const Home = () => {
                 <p>Jul. 2017 - May 2021</p>
               </div>
             </div>
+            
             <div className={styles.educationCard}>
               <img src="/scarlet2131.github.io/images/lambton_college.jpg" alt="Lambton College" className={styles.educationIcon} />
               <div className={styles.educationInfo}>
