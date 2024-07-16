@@ -44,7 +44,7 @@ const Home = () => {
       <section id="home" className={styles.homeSection}>
           <div className={styles.profileContainer}>
             <div className={styles.imageContainer}>
-              <img src="scarlet2131.github.io/images/profile.png" alt="Monisha Ranjan" className={styles.image} />
+              <img src="/scarlet2131.github.io/images/profile.png" alt="Monisha Ranjan" className={styles.image} />
               <div className={styles.contactInfo}>
                 {/* <p>Phone: +123-456-7890</p> */}
                 <p>Email: <a href="mailto:ranjan.monisha233@gmail.com">ranjan.monisha233@gmail.com</a></p>
