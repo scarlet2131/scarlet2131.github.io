@@ -29,9 +29,9 @@ jobs:
       - name: Build the project
         run: npm run build
 
-      # Export the project
-      - name: Export the project
-        run: npm run export
+      # # Export the project
+      # - name: Export the project
+      #   run: npm run export
 
       # # Deploy to GitHub Pages
       # - name: Deploy to GitHub Pages
