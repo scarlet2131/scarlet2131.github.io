@@ -57,7 +57,7 @@ const Home = () => {
             <p className={styles.description}>
                 Software Engineer specializing in full-stack development and scalable digital solutions. With a strong foundation in backend technologies such as Spring Boot, FastAPI, and MongoDB, combined with front-end expertise in React and Bootstrap, I create impactful and user-centric applications. Passionate about creating efficient and scalable websites, focusing on leveraging modern web technologies to enhance performance and user experience.
               </p>
-              <a href="https://drive.google.com/file/d/1H5Cue3FkD0P0su9xKhucd5z6auYedR7E/view?usp=sharing" target="_blank" className={styles.resumeButton}>Resume</a>
+              <a href="https://drive.google.com/file/d/1numIHKTzq82LhJ9oTFeVZsZVw-yH6JoF/view?usp=drive_link" target="_blank" className={styles.resumeButton}>Resume</a>
 
             </div>
           </div>
